@@ -119,7 +119,7 @@ role being granted.
 A RoleBinding grants permissions within a specific namespace whereas a ClusterRoleBinding
 grants that access cluster-wide.
 
-A RoleBinding may reference any Role in the same namespace. Alternatively, a RoleBinding
+A RoleBinding may reference any Role in the same namespace. Alternatively, a ClusterRoleBinding
 can reference a ClusterRole and bind that ClusterRole to the namespace of the RoleBinding.
 If you want to bind a ClusterRole to all the namespaces in your cluster, you use a
 ClusterRoleBinding.
